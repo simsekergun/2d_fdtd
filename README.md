@@ -1,6 +1,6 @@
 # 2D FDTD Simulation of an Add-Drop Ring Resonator (MATLAB)
 
-A self-contained 2D FDTD code (TE polarization: Ex, Ey, Hz) that simulates a ring resonator placed between two waveguides (add-drop configuration) and computes the through port and drop port transmission spectra, together with the reflection, a power budget, resonance tables (Q, extinction ratio, insertion loss) and field maps at the resonances.
+A self-contained 2D FDTD code (TE polarization: Ex, Ey, Hz) that simulates a ring resonator placed between two waveguides (add-drop configuration) and computes the through-port and drop-port transmission spectra, together with the reflection, a power budget, resonance tables (Q, extinction ratio, insertion loss), and field maps at the resonances.
 
 The default geometry follows a common 3D add-drop ring benchmark (R = 5 um, waveguide width 0.43 um, gap 0.1 um, 1.50 to 1.60 um window) and uses an effective index so that the 2D model approximates a 220 nm silicon-on-insulator ring.
 
@@ -186,6 +186,7 @@ The script produces four figures (saved in `figures/`).
 - The drop port is the left end of the top waveguide. A small amount of power can also appear at the right end of the top waveguide (add port) because of back-coupling, and it is not monitored. It shows up in the 1 - T - D - R curve.
 - Reduce `P.dx` to check convergence of the resonance wavelengths.
 
-## License
+Ergun Simsek, UMBC
 
-Add your license here.
+November 11, 2026
+
